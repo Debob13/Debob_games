@@ -1,5 +1,5 @@
 h1 {
-    color:green;
+    color: green;
     text-align: center;
     font-size: 50px;
     margin: 50px;
@@ -16,24 +16,24 @@ img {
 
 .button {
     text-decoration: none;
-    color: white; 
+    color: white;
     border: solid darkgreen;
     border-radius: 100px;
     padding: 10px;
-    background-color:darkgreen ;
+    background-color: darkgreen;
     text-align: right;
     box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
 }
 
-.button:hover{
-   box-shadow: none;
+.button:hover {
+    box-shadow: none;
 }
 
 header {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-   
+
 }
 
 nav {
@@ -42,11 +42,11 @@ nav {
 
 
 .gamecontainer {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     width: 70%;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -55,10 +55,20 @@ nav {
     width: 250px;
     height: 200px;
     border: solid;
-    background-color: aqua;
-    margin: 15px
+    margin: 15px;
+    border-radius: 15px;
 }
 
 iframe {
     width: 100%
+}
+
+.dino {
+    background-image: url('./pictures/dino.png');
+    background-size: cover;
+}
+
+.star {
+    background-image: url('./pictures/starcollector.png');
+    background-size: cover;
 }
