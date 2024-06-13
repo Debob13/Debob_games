@@ -76,3 +76,24 @@ iframe {
     background-image: url('./pictures/starcollector.png');
     background-size: cover;
 }
+
+.jump {
+    background-image: url('./pictures/monkeyjump.png');
+    background-size: cover;
+}
+
+.gamename {
+    color:black;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.device-info {
+    color: blue;
+    font-size: 15px;
+}
