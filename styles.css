@@ -82,6 +82,15 @@ iframe {
     background-size: cover;
 }
 
+.click {
+    background-image: url('./pictures/clicks.png');
+    background-size: cover;
+}
+
+.soon { background-image: url('./pictures/coming\ soon.png');
+    background-size: cover;
+}
+
 .gamename {
     color:black;
     font-size: 20px;
