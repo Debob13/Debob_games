@@ -87,6 +87,11 @@ iframe {
     background-size: cover;
 }
 
+.whack {
+    background-image: url('./pictures/whackamole.png');
+    background-size: cover;
+}
+
 .soon { background-image: url('./pictures/coming\ soon.png');
     background-size: cover;
 }
