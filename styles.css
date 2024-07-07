@@ -64,7 +64,18 @@ nav {
 }
 
 iframe {
-    width: 100%
+    width: 900px;
+}
+
+.gamewrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.backdino {
+    background-image: url('./pictures/background\ for\ dino.png');
+    background-size: cover;
 }
 
 .dino {
