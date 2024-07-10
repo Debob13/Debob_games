@@ -10,10 +10,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-
-}
-
 img {
     width: 45px
 }
@@ -100,6 +96,16 @@ iframe {
 
 .whack {
     background-image: url('./pictures/whackamole.png');
+    background-size: cover;
+}
+
+.click2 {
+    background-image: url('./pictures/howmanyclicks2.png');
+    background-size: cover;
+}
+
+.mouse {
+    background-image: url('./pictures/mousemaze.png');
     background-size: cover;
 }
 
