@@ -10,6 +10,10 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 img {
     width: 45px
 }
@@ -18,11 +22,26 @@ img {
     text-decoration: none;
     color: white;
     border: solid darkgreen;
-    border-radius: 100px;
+    border-radius: 10px;
     padding: 10px;
     background-color: darkgreen;
     text-align: right;
     box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+}
+
+.animation {
+    text-decoration: none;
+    color: white;
+    border: solid darkgreen;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: darkgreen;
+    text-align: right;
+    box-shadow: 1.7px 3.4px 3.4px hsl(0deg 0% 0% / 0.45);
+}
+
+.animation:hover {
+    box-shadow: none;
 }
 
 .button:hover {
